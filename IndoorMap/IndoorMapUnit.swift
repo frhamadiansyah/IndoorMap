@@ -21,8 +21,10 @@ class IndoorMapUnit {
 	var coordinates = [CLLocationCoordinate2D]()
 	
 	var category: Category
+    
+    var door = [CLLocationCoordinate2D]()
 	
-	init(coordinates: [CLLocationCoordinate2D], category: Category) {
+    init(coordinates: [CLLocationCoordinate2D], category: Category) {
 		self.coordinates = coordinates
 		self.category = category
 	}
